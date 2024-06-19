@@ -2,12 +2,13 @@
 :root {
     --primary-color: #DDDDDD;
     --secondary-color: #F8F9FA;
+    --box-shadow: 2px 2px 2px rgba(173, 170, 170, 0.3);
 }
 
 
 
 
-.main-h1 {
+.main-head {
     font-family: "Rubik", sans-serif !important;
     font-size: 180px;
     color: #E8B8AD;
@@ -27,7 +28,7 @@ p {
     margin-left: 20px;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 2px 2px 2px rgba(173, 170, 170, 0.3);
+    box-shadow: var(--box-shadow);
 }
 
 
@@ -74,22 +75,40 @@ p {
 
 
 .background-color {
-    width: 350px;
-    height: 350px;
-    background-color: #A8B1B8;
+    width: 400px;
+    height: 400px;
+    background-color: #F0F0F0;
     border-radius: 50%;
-    margin: 80px 0 0 180px;
+    margin: 90px 0 0 200px;
 }
 
 
 .airpods-secondary {
     width: 380px;
     height: 380px;
-    margin-top: -120px;
-    margin-left: -80px;
+    margin-top: -60px;
+    margin-left: -140px;
 }
 
 
+.container-2 {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 60px;
+    overflow-x: hidden;
+
+}
+
+
+.airpods-display {
+    margin-top: 60px;
+    margin-left: 250px;
+    width: 250px;
+    height: 450px;
+    box-shadow: var(--box-shadow);
+}
 
 
 
