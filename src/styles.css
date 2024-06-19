@@ -103,7 +103,7 @@ p {
 
 
 .airpods-display {
-    margin: 30px 300px;
+    margin: 60px 300px;
     width: 300px;
     height: 450px !important;
     box-shadow: var(--box-shadow);
@@ -115,10 +115,18 @@ p {
     color: #E8B8AD;
     font-size: 50px;
     font-weight: bold;
-    margin-top: 110px;
+    margin-top: 130px;
     margin-left: -145px;
     margin-bottom: -125px;
 }
+
+
+.custom-heading {
+    color:  #ED9498;
+}
+
+
+
 
 .second-paragraph {
      font-size: 12px;
@@ -136,3 +144,48 @@ p {
 
 
 
+
+
+.container-3  {
+    background-color: var(--secondary-color) !important;
+    height: 100vh;
+    max-width: 100%;
+    padding-top: 130px;
+    
+
+}
+
+.final-home-heading {
+    margin-left: 80px;
+}
+
+
+.third-heading {
+     font-family: "Rubik", sans-serif !important;
+    color: #E55248;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: -15px;
+    margin-left: 295px;
+}
+
+.final-page-paragraph {
+    padding-top: 20px;
+    margin-left: 300px;
+}
+
+.btn-2 {
+   margin-top: 8px;
+    margin-left: 380px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);  
+    border: none; 
+}
+
+.airpods-cases {
+    width: 800px;
+    margin-top: -300px;
+    margin-left: 80px;
+
+}
