@@ -230,7 +230,7 @@ p {
 
 
 
-@media(min-width: 600px) {
+@media(min-width: 768px) {
 
 
     .main-heading {
@@ -276,6 +276,31 @@ p {
 
 
 
+
+
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+
+    .airpods-display{
+        margin-left: 45px;
+    }
+
+
+.second-home-wrapper {
+    margin-top: -10px;
+}
+
+.second-home-heading{
+    font-size: 40px;
+}
+
+
+.second-paragraph {
+    margin-left: -65px;
+}
 
 
 
