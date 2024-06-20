@@ -192,13 +192,28 @@ p {
 
 
 
-@media(max-width: 576px) {
+@media(max-width: 600px) {
     .main-head {
         font-size: 130px;
     }
    
     .airpods-main {
         margin-top: -220px;
+    }
+
+    .second-home-heading {
+        font-size: 30px;
+    }
+
+    .second-paragraph {
+        margin-left: -200px;
+        color: rgb(45, 44, 44);
+        font-size: 10px;
+        
+    }
+
+    .arrow-img {
+        margin-left: -70px;
     }
 
 
@@ -215,7 +230,7 @@ p {
 
 
 
-@media(min-width: 768px) {
+@media(min-width: 600px) {
 
 
     .main-heading {
@@ -255,6 +270,14 @@ p {
     width: 120px;
     margin-left: -5px;
 }
+
+
+
+
+
+
+
+
 
 
 
