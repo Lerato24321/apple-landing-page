@@ -189,3 +189,73 @@ p {
     margin-left: 80px;
 
 }
+
+
+
+@media(max-width: 576px) {
+    .main-head {
+        font-size: 130px;
+    }
+   
+    .airpods-main {
+        margin-top: -220px;
+    }
+
+
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+@media(min-width: 768px) {
+
+
+    .main-heading {
+        padding-top: 30px;
+    }
+
+   .main-head {
+    font-size: 150px;
+   }
+
+
+   .airpods-main {
+    width: 300px;
+    margin-top: -330px;
+    margin-left: -10px;
+   }
+
+
+
+   .airpods-secondary {
+    width: 280px;
+    margin-top: -30px;
+    margin-left: -150px;
+   }
+
+   .background-color {
+    height: 300px;
+   }
+
+
+   .secondary-heading {
+    margin-top: 100px;
+    margin-left: -85px
+}
+
+.btn {
+    width: 120px;
+    margin-left: -5px;
+}
+
+
+
+}
