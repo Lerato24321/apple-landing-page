@@ -217,6 +217,45 @@ p {
     }
 
 
+
+    .third-heading {
+       margin-left: 50px;
+
+    }
+
+
+    .container-3 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin-top: -220px;
+        height: 85%;
+        
+
+    }
+
+   .final-page-paragraph {
+    margin-left: 50px;
+    font-size: 10px;
+    
+   }
+
+
+   .btn-2 {
+    margin-left: 50px;
+    
+   }
+
+
+   .airpods-cases {
+    margin-top: 90px;
+    margin-left: -20px;
+    
+   }
+
+
+
+
+
 }
 
 
@@ -230,7 +269,7 @@ p {
 
 
 
-@media(min-width: 768px) {
+@media (min-width: 600px) and (max-width: 820px){
 
 
     .main-heading {
@@ -262,7 +301,7 @@ p {
 
 
    .secondary-heading {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: -85px
 }
 
@@ -272,6 +311,25 @@ p {
 }
 
 
+.second-home-wrapper {
+    margin-top: -60px;
+}
+
+.airpods-display {
+    margin-left: 60px;
+}
+
+.second-paragraph {
+    margin-top: 130px !important;
+    margin-left: -110px;
+    color: black;
+    
+}
+
+
+
+
+
 
 
 
@@ -282,7 +340,7 @@ p {
 }
 
 
-@media (min-width: 1000px) and (max-width: 1200px) {
+@media (min-width:853px) and (max-width: 1024px) {
 
     .airpods-display{
         margin-left: 45px;
